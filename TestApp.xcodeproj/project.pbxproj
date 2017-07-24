@@ -13,6 +13,7 @@
 		18940B6C1F0B819F008DCD3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18940B6B1F0B819F008DCD3C /* Assets.xcassets */; };
 		18940B6F1F0B819F008DCD3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18940B6D1F0B819F008DCD3C /* LaunchScreen.storyboard */; };
 		18940B771F0B81BA008DCD3C /* AbcTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18940B761F0B81BA008DCD3C /* AbcTableViewCell.swift */; };
+		8AAA83B01F25C3BB00E2277D /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAA83AF1F25C3BB00E2277D /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		18940B6E1F0B819F008DCD3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18940B701F0B819F008DCD3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18940B761F0B81BA008DCD3C /* AbcTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbcTableViewCell.swift; sourceTree = "<group>"; };
+		8AAA83AF1F25C3BB00E2277D /* NewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				18940B641F0B819F008DCD3C /* AppDelegate.swift */,
 				18940B661F0B819F008DCD3C /* ViewController.swift */,
 				18940B681F0B819F008DCD3C /* Main.storyboard */,
+				8AAA83AF1F25C3BB00E2277D /* NewViewController.swift */,
 				18940B6B1F0B819F008DCD3C /* Assets.xcassets */,
 				18940B6D1F0B819F008DCD3C /* LaunchScreen.storyboard */,
 				18940B701F0B819F008DCD3C /* Info.plist */,
@@ -99,6 +102,7 @@
 				TargetAttributes = {
 					18940B601F0B819F008DCD3C = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -141,6 +145,7 @@
 				18940B771F0B81BA008DCD3C /* AbcTableViewCell.swift in Sources */,
 				18940B671F0B819F008DCD3C /* ViewController.swift in Sources */,
 				18940B651F0B819F008DCD3C /* AppDelegate.swift in Sources */,
+				8AAA83B01F25C3BB00E2277D /* NewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +264,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arrowbits.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -270,6 +276,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.arrowbits.TestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -292,6 +299,7 @@
 				18940B751F0B819F008DCD3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
